@@ -4,3 +4,5 @@ ___
 YTD это программа для скачивания видео с Youtube
 YTD поддерживает скачку видео с Youtube, TikTok и Instagram
 Для запуска откройте YTD.exe 
+
+Скачать последний релиз https://github.com/imwixes/YTD---YoutubeDownloader/releases/tag/release
