@@ -1,0 +1,19 @@
+{
+  "name": "ytd_v1",
+  "version": "1.0.0",
+  "description": "YTD (Youtube Downloader) - Electron app for downloading video from Youtube, Instagram, TikTok",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . YTD --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "author": "imwixes",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "which": "^2.0.2"
+  }
+}
