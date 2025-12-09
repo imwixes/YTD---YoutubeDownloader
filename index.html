@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YTD (Youtube Downloader)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">YTD v1.000.00</header>
+
+      <main class="center">
+        <div class="input-wrap">
+          <input id="urlInput" placeholder="Вставьте URL-адрес" />
+        </div>
+
+        <div class="controls">
+          <button id="downloadBtn" class="primary">Скачать</button>
+        </div>
+
+        <div class="download-path">
+          <span id="pathLabel">Путь: </span>
+          <button id="changePath" class="linkish">Изменить</button>
+        </div>
+
+        <div id="progressArea" class="progress"></div>
+      </main>
+
+      <footer class="footer">
+        <div class="github">Ссылка Github - <a id="githubLink" href="#">https://github.com/imwixes</a></div>
+        <div class="small">YTD - приложение для скачивания видео с Youtube, Instagram, TikTok</div>
+      </footer>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
